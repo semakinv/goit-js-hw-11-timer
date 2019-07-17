@@ -1,21 +1,7 @@
 {
-  "name": "notepad-boilerplate-homework-10",
-  "version": "1.1.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
-    "build": "webpack --env.mode production --config ./webpack/config.js",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
-  },
-  "keywords": [],
-  "author": "Mykola Somakin <k.semakin@gmail.com>",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/luxplanjay/webpack-starter-kit/issues"
-  },
-  "homepage": "https://semakinv.github.io/goit-js-test/notepad-boilerplate-homework-10/",
+  "name": "goit-js-hw-11-timer",
+  "version": "1.0.0",
+  "main": "./src/index.js",
   "devDependencies": {
     "@babel/core": "^7.4.5",
     "@babel/plugin-proposal-class-properties": "^7.4.4",
@@ -45,5 +31,23 @@
   "dependencies": {
     "core-js": "^3.1.4",
     "handlebars": "^4.1.2"
-  }
+  },
+  "scripts": {
+    "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
+    "build": "webpack --env.mode production --config ./webpack/config.js",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/semakinv/goit-js-hw-11-timer.git"
+  },
+  "author": "Mykola Somakin <k.semakin@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/semakinv/goit-js-hw-11-timer/issues"
+  },
+  "homepage": "https://github.com/semakinv/goit-js-hw-11-timer#readme",
+  "keywords": [],
+  "description": ""
 }
