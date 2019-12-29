@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "core-js": "^3.1.4",
-    "handlebars": "^4.1.2"
+    "handlebars": "^4.3.0"
   },
   "scripts": {
     "start": "webpack-dev-server --env.mode development --config ./webpack/config.js",
